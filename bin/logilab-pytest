@@ -1,0 +1,7 @@
+#!/Users/yalechen/.pyenv/versions/3.7.0/bin/python3.7
+
+import warnings
+warnings.simplefilter('default', DeprecationWarning)
+
+from logilab.common.pytest import run
+run()
